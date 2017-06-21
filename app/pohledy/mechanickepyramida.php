@@ -8,19 +8,19 @@
 ?>
 
 
-<div class="container sghk">
+<div class="container-fluid sghk">
     <form id="tbzp" method="post">
         <input type="radio" name="Pyramida" value="5" id="5" hidden>
-        &nbsp; &nbsp;&nbsp;<label for="5"><img src="img/sghk/main.png" alt="" /></label> <br>
+        &nbsp; &nbsp;&nbsp;<label for="5"><img src="<?= STATIC_IMG ?>sghk/main.png" alt="" /></label> <br>
         <input type="radio" name="Pyramida" value="4" id="4" >
-        <label for="4"><img src="img/sghk/4.png" alt="" /></label> <br>
+        <label for="4"><img src="<?= STATIC_IMG ?>sghk/4.png" alt="" /></label> <br>
         <input type="radio" name="Pyramida" value="3" id="3">
-        <label for="3"><img src="img/sghk/3.png" alt="" /></label> <br>
+        <label for="3"><img src="<?= STATIC_IMG ?>sghk/3.png" alt="" /></label> <br>
         <input type="radio" name="Pyramida" value="2" id="2">
-        <label for="2"><img src="img/sghk/2.png" alt="" /></label> <br>
+        <label for="2"><img src="<?= STATIC_IMG ?>sghk/2.png" alt="" /></label> <br>
         <input id="1" type="radio" name="Pyramida" value="1")
         " visibilty="hidden">
-        <label for="1"><img src="img/sghk/1.png" alt="" /></label> <br>
+        <label for="1"><img src="<?= STATIC_IMG ?>sghk/1.png" alt="" /></label> <br>
 
 
         <p style="padding-top:5%;" id="vypis"></p>
@@ -37,7 +37,6 @@
 
 
 
-</div>
 
 <script>
     var uvod='Pyramida bezpečnosti je odborným rádcem při orientaci ve škále výrobků značky FAB poskytujících různou míru zabezpečení. Čtyři barevně odlišné stupně bezpečnosti reprezentují jednotlivé bezpečnostní třídy dle normy ČSN P ENV 1627. Ta definuje odolnost výrobků např. proti odvrtání, vyhmatání, vytržení, hrubému násilí, atd. Hodnocení a certifikaci výrobků zajišťuje nezávislá akreditovaná zkušební laboratoř a certifikační orgán. PYRAMIDA usnadňuje volbu při výběru vhodných výrobků splňujících požadovanou úroveň  zabezpečení majetku.';

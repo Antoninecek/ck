@@ -13,9 +13,9 @@ if(ENVIRONMENT == 'DEV'){
     define('ROOT_DIR_FILES', '\\projects\\Fab\\');
     define('ROOT_DIR', '/projects/Fab/');
     define('FULL_PATH_ROOT', $_SERVER['SERVER_NAME'].ROOT_DIR);
-    define('STATIC_CSS', '/projects/Fab/static/css/');
-    define('STATIC_IMG', '/projects/Fab/static/img/');
-    define('STATIC_FONT', '/projects/Fab/static/font/');
+    define('STATIC_CSS', ROOT_DIR . 'static/css/');
+    define('STATIC_IMG', ROOT_DIR . 'static/img/');
+    define('STATIC_FONT', ROOT_DIR . 'static/font/');
     define('DB_TYPE', 'mysql');
     define('DB_HOST', '127.0.0.1');
     define('DB_NAME', 'fab');

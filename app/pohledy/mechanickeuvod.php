@@ -17,6 +17,6 @@
 
     <div class="navigace">
         <a href="home"><img src="<?= STATIC_IMG ?>preview.png"></a>
-        <a href="sghk1"><img src="<?= STATIC_IMG ?>next.png"></a>
+        <a href="mechanicke/pyramida"><img src="<?= STATIC_IMG ?>next.png"></a>
     </div>
 </div>
